@@ -20,10 +20,10 @@ courses: {compsci: {week: 26}}
         <input type="number" id="hypertension" name="hypertension" required><br><br>
         <label for="heart_disease">Heart Disease (0 for No, 1 for Yes):</label>
         <input type="number" id="heart_disease" name="heart_disease" required><br><br>
-        <label for="residence_type">Residence Type:</label>
-        <select id="residence_type" name="residence_type" required>
-            <option value="urban">Urban</option>
-            <option value="rural">Rural</option>
+        <label for="Residence_type">Residence Type:</label>
+        <select id="Residence_type" name="Residence_type" required>
+            <option value="Urban">Urban</option>
+            <option value="Rural">Rural</option>
         </select><br><br>
         <label for="avg_glucose_level">Average Glucose Level:</label>
         <input type="number" id="avg_glucose_level" name="avg_glucose_level" required><br><br>
@@ -47,7 +47,7 @@ courses: {compsci: {week: 26}}
             age: form['age'].value,
             hypertension: form['hypertension'].value,
             heart_disease: form['heart_disease'].value,
-            residence_type: form['residence_type'].value,
+            Residence_type: form['Residence_type'].value,
             avg_glucose_level: form['avg_glucose_level'].value,
             bmi: form['bmi'].value,
             smoking_status: form['smoking_status'].value
