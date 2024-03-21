@@ -3,7 +3,6 @@ toc: true
 layout: base
 search_exclude: false
 permalink: stroke
-courses: {compsci: {week: 26}}
 ---
 <body>
     <form id="strokeForm">
