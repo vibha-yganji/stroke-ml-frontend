@@ -172,7 +172,7 @@ permalink: stroke
                     resultDiv.innerHTML += '<p>' + key + ': ' + data[key] + '</p>';
                 }
                 var strokeProbability = parseFloat(data['stroke_prob']);
-                if (strokeProbability < 30) {
+                if (data[key] < 30) {
                     resultDiv.innerHTML += '<p>You are healthy and not in danger of a stroke! </p>';
                 } else {
                     resultDiv.innerHTML += '<p> 💀 You are in danger of a stroke. 💀 Be sure to implement a healthy lifestyle to keep yourself far from having to face this life-threatening event! Here is a <a href="https://www.cdc.gov/stroke/prevention.htm">link</a> for more information about how to prevent a stroke. </p>';
