@@ -4,12 +4,39 @@ layout: base
 search_exclude: false
 permalink: stroke
 ---
+ <style>
+        body {
+            background-color: rgb(255,239,234)!important; /* Set background color to white */
+            color: black; /* Set text color to black */
+            font-family: Arial, sans-serif; /* Optional: Set font family */
+        }
+
+        label {
+            color: black;
+        }
+        .site-title, .site-title:visited, .site-nav, .page-link {
+        color: black!important;
+        }
+
+        input, option, textarea, select, button {
+            background-color: white !important;
+            text-align: center;
+            color: black !important;
+        }
+        button {
+            padding: 5px;
+        }
+
+        form {
+            text-align: center;
+        }
+    </style>
 <body>
     <form id="strokeForm">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
         <label for="gender">Gender:</label>
-        <select id="gender" name="gender" required>
+        <select id="gender" name="gender" reequired>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
         </select><br><br>
@@ -20,7 +47,6 @@ permalink: stroke
         <option value="0">No hypertension</option>
         <option value="1">Has hypertension</option>
         </select><br><br>
-        <label for="heart_disease">Heart Disease:</label>
         <label for="heart_disease">Heart Disease:</label>
         <select id="heart_disease" name="heart_disease">
         <option value="0">No heart disease</option>
