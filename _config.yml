@@ -4,6 +4,7 @@ owner_name: Vibha Ganji
 github_username: vibha-yganji
 github_repo: "stroke-ml-frontend"
 baseurl: "/stroke"
+future: true
 remote_theme: jekyll/minima
 minima:
   social_links:
