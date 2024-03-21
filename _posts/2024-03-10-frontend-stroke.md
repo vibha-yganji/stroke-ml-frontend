@@ -15,10 +15,17 @@ permalink: stroke
         </select><br><br>
         <label for="age">Age:</label>
         <input type="number" id="age" name="age" required><br><br>
-        <label for="hypertension">Hypertension (0 for No, 1 for Yes):</label>
-        <input type="number" id="hypertension" name="hypertension" required><br><br>
-        <label for="heart_disease">Heart Disease (0 for No, 1 for Yes):</label>
-        <input type="number" id="heart_disease" name="heart_disease" required><br><br>
+        <label for="hypertension">Hypertension:</label>
+        <select id="hypertension" name="hypertension">
+        <option value="0">No hypertension</option>
+        <option value="1">Has hypertension</option>
+        </select><br><br>
+        <label for="heart_disease">Heart Disease:</label>
+        <label for="heart_disease">Heart Disease:</label>
+        <select id="heart_disease" name="heart_disease">
+        <option value="0">No heart disease</option>
+        <option value="1">Has heart disease</option>
+        </select><br><br>
         <label for="Residence_type">Residence Type:</label>
         <select id="Residence_type" name="Residence_type" required>
             <option value="Urban">Urban</option>
@@ -66,6 +73,12 @@ permalink: stroke
                 resultDiv.innerHTML += '<p>' + key + ': ' + data[key] + '</p>';
             }
             var strokeProbability = parseFloat(data['stroke_prob']);
+            if (strokeProbability < 30) {
+        resultDiv.innerHTML += '<p>You are healthy are not in danger of a stroke! </p>';
+    }
+    else {
+    resultDiv.innerHTML += '<p> 💀 You are in danger of a stroke. 💀 Be sure to implement a healthy lifestyle to keep yourself far from having to face this life-threatening event! Here is a <a href="https://www.cdc.gov/stroke/prevention.htm">link</a> for more information about how to prevent a stroke. </p>';
+}
         })
         .catch(error => {
             console.error('Error:', error);
