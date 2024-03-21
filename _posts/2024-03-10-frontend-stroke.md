@@ -5,36 +5,51 @@ search_exclude: false
 permalink: stroke
 ---
  <style>
-        body {
-            background-color: rgb(255,239,234)!important; /* Set background color to white */
-            color: black; /* Set text color to black */
-            font-family: Arial, sans-serif; /* Optional: Set font family */
-        }
+       body {
+    background-color: rgb(255,239,234);
+    color: black;
+    font-family: Arial, sans-serif;
+}
 
-        label {
-            color: black;
-        }
+.site-title {
+    color: black;
+    font-size: 30px;
+}
 
-        .site-title {
-        color: black !important;
-        font-size: 36px;
-        text-align: center !important;
-        margin-bottom: 30px;
-        text-decoration: underline;
-        }
 
-        input, option, textarea, select, button {
-            background-color: white !important;
-            text-align: center;
-            color: black !important;
-        }
-        button {
-            padding: 5px;
-        }
+input, option, textarea, select, button {
+    background-color: white;
+    color: black;
+}
 
-        form {
-            text-align: center;
-        }
+button {
+    padding: 5px;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input, select {
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: auto;
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 30px;
+    text-align: center;
+}
+
     </style>
 <body>
     <form id="strokeForm">
