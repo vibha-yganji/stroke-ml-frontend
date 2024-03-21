@@ -5,50 +5,7 @@ search_exclude: false
 permalink: stroke
 ---
  <style>
-       body {
-    background-color: rgb(255,239,234);
-    color: black;
-    font-family: Arial, sans-serif;
-}
-
-.site-title {
-    color: black;
-    font-size: 30px;
-}
-
-
-input, option, textarea, select, button {
-    background-color: white;
-    color: black;
-}
-
-button {
-    padding: 5px;
-}
-
-label {
-    display: inline-block;
-    text-align: right;
-    margin-right: 10px;
-}
-
-input, select {
-    width: 200px;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    width: auto;
-    margin-top: 20px;
-}
-
-#result {
-    margin-top: 30px;
-    text-align: center;
-}
+   
 
     </style>
 <body>
