@@ -14,8 +14,13 @@ permalink: stroke
         label {
             color: black;
         }
+
         .site-title {
-        color: black!important;
+        color: black !important;
+        font-size: 36px;
+        text-align: center !important;
+        margin-bottom: 30px;
+        text-decoration: underline;
         }
 
         input, option, textarea, select, button {
