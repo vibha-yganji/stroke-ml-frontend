@@ -3,7 +3,7 @@ description: "August 2023 to June 2024"
 owner_name: Vibha Ganji
 github_username: vibha-yganji
 github_repo: "stroke-ml-frontend"
-baseurl: ""
+baseurl: "/"
 future: true
 remote_theme: jekyll/minima
 minima:
