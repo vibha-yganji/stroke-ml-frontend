@@ -14,7 +14,7 @@ permalink: stroke
         label {
             color: black;
         }
-        .site-title, .site-title:visited, .site-nav, .page-link {
+        .site-title {
         color: black!important;
         }
 
