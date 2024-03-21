@@ -4,10 +4,6 @@ layout: base
 search_exclude: false
 permalink: stroke
 ---
- <style>
-   
-
-    </style>
 <body>
     <form id="strokeForm">
         <label for="name">Name:</label>
