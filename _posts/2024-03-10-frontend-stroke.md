@@ -9,6 +9,12 @@ permalink: stroke
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stroke Prediction Form</title>
+    <style>
+        h2 {
+            color: #feb2bd;
+        }
+
+    </style>
 </head>
 <body>
     <form id="strokeForm">
