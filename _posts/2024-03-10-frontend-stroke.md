@@ -121,9 +121,9 @@ permalink: stroke
                 <option value="Urban">Urban</option>
                 <option value="Rural">Rural</option>
             </select><br><br>
-            <label for="avg_glucose_level">Average Glucose Level (mg/dL):</label>
+            <label for="avg_glucose_level">Average Glucose Level (highest possible can be 290 mg/dL):</label>
             <input type="number" id="avg_glucose_level" name="avg_glucose_level" required><br><br>
-            <label for="bmi">BMI:</label>
+            <label for="bmi">BMI (range can be from 10 up to 180):</label>
             <input type="number" id="bmi" name="bmi" required><br><br>
             <label for="smoking_status">Smoking Status:</label>
             <select id="smoking_status" name="smoking_status" required>
